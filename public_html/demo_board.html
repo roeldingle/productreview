@@ -1,0 +1,27 @@
+<!--@css(css/productreview_board.css)-->
+<div module="productreview_board_1">
+
+	<div class="xans-productreview-display">
+		<!-- title -->
+		<div class="mTitle mb30"><h2 class="title">{$title}</h2></div>
+		
+		<!-- total review count -->
+		<p class="productreview-count">All reviews <strong>{$total_reviews}</strong></p>
+		
+		<!-- select row -->
+		<select class="productreview-outputNumber {$select_rows_class}">
+	        <option value="5">5 rows</option>
+	        <option value="10">10 rows</option>
+	        <option value="20">20 rows</option>
+	        <option value="50">50 rows</option>
+		</select>
+		
+		<!-- content list -->	
+		<div class="{$content_class}"></div>
+		
+		<!-- pagination -->
+     	<div class="pagination {$pager_class}"></div>
+     	
+	</div>  
+	
+</div>	

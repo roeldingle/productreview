@@ -1,0 +1,42 @@
+	<!--@css(css/productreview_gallery.css)-->
+<div module="productreview_gallery_1">
+
+	<div class="xans-productreview-display">
+			
+			<div class="mTitle mb30"><h2 class="title">{$title}</h2></div>
+			
+			<p class="productreview-count">All reviews <strong>{$total_reviews}</strong></p>
+			
+		 	
+			<div class="productreview_content group">
+			
+				<div class="inner group">
+				
+					<!-- gallery -->
+					<div class="productreview-image {$gallery_class}">
+					
+						<img src=""  class="{$gallery_image_class}" >
+						<p class="page {$gallery_index_class}"></p>
+						<button type="button" class="prev gallery_prev">ì´ì „</button> 
+						<button type="button" class="next gallery_next">ë‹¤ìŒ</button>
+					
+					</div>
+					
+					<!-- contents -->
+				 	<div class="productreview-list">
+				 		<ul class="{$content_class}"></ul>
+				 	</div>
+				 	
+					<!-- pagination -->
+     				<div class="{$pager_class} productreview-paging"></div>
+     				
+				</div>	
+				
+				<!-- details -->
+				<div class="productreview-detail {$details_class}"></div>
+							
+			</div>
+			 	
+		</div>
+ 
+</div>	

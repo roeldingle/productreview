@@ -1,0 +1,72 @@
+@CHARSET "UTF-8";
+
+.productreview_content{border:1px solid gray;}
+h2.title{padding:0 0 0 12px; margin:0 0 15px 0; background:transparent url(../images/front/h2_title_bullet.png) no-repeat left center;font-size:14px; font-weight:bold; color:#000;}
+/*.xans-productreview-display h2 { overflow:hidden; height:17px; margin:0 0 18px; text-indent:100%; background:url('http://img.echosting.cafe24.com/apps/product-review/skin2/txt_title.png') no-repeat 0 0; }*/
+
+.xans-productreview-display .productreview-count { margin:0 0 7px; color:#828282; }
+.xans-productreview-display .productreview-count strong { color:#ff6600; }
+
+.xans-productreview-display .inner { position:relative; border:1px solid #bcbcbc; border-bottom:0; background-color:#1a1c22; margin-right:322px;}
+
+.xans-productreview-display .productreview-image { float:left; position:relative;width:432px; height:434px; text-align:center; left:50%;margin-left:-217px;}
+.xans-productreview-display .productreview-image img { position:absolute; top:50%; left:62px; width:308px; height:382px; margin:-202px 0 0; }
+.xans-productreview-display .embed .productreview-image img { left:60px; width:312px; height:263px; margin-top:-143px; }
+.xans-productreview-display .productreview-image .page { position:absolute; bottom:6px; left:0; width:432px; color:#737373; }
+.xans-productreview-display .productreview-image .page strong { color:#fff; font-weight:normal; }
+.xans-productreview-display .productreview-image .page strong.current { color:#ed5f00; font-weight:bold; }
+.xans-productreview-display .productreview-image button { position:absolute; top:50%; left:15px; width:15px; height:30px; margin:-15px 0 0; text-indent:-9999px; background:url('http://img.echosting.cafe24.com/apps/photo-review/skin2/btn_navigation.png') no-repeat 0 0; }
+.xans-productreview-display .productreview-image button.prev:hover { background-position:0 -40px; }
+.xans-productreview-display .productreview-image button.prev.disabled { cursor:default; background-position:0 0;display:none; }
+.xans-productreview-display .productreview-image button.next { left:402px; background-position:-25px 0; }
+.xans-productreview-display .productreview-image button.next:hover { background-position:-25px -40px; }
+.xans-productreview-display .productreview-image button.next.disabled { cursor:default; background-position:-25px 0;display:none; }
+
+.xans-productreview-display .productreview-list { posistion:relative;margin-right:-322px;margin-top:-1px;float:right; width:322px; padding:0 0 59px; background-color:#fff; border-top: 1px solid #bcbcbc;}
+.xans-productreview-display .productreview-list li { float:left; margin:1px 0 0 1px; padding:10px 10px 9px 29px; border-bottom:1px solid #d9dbdd; word-break:break-all; background-color:#f0f0f0; }
+.xans-productreview-display .productreview-list li.selected { background-color:transparent; }
+.xans-productreview-display .productreview-list .image { float:left; }
+.xans-productreview-display .productreview-list .image img { width:52px; height:52px; border:1px solid #fff; }
+.xans-productreview-display .productreview-list .product { float:right; width:209px; margin:1px 0 4px; color:#0067c7; }
+.xans-productreview-display .productreview-list .product a { color:#353535; font-weight:bold; }
+.xans-productreview-display .productreview-list .star { float:right; width:209px; }
+.xans-productreview-display .embed .productreview-list .star { margin:12px 0 0; }
+.xans-productreview-display .productreview-list .star img { float:left; }
+.xans-productreview-display .productreview-list .star strong { float:left; width:136px; margin:0 0 0 9px; color:#828282; font-weight:normal; }
+.xans-productreview-display .productreview-list em { float:right; width:210px; margin:4px 0 0; color:#828282; font-style:normal; font-size:11px; }
+
+.xans-productreview-display .productreview-paging { position:absolute; right:0; bottom:0; width:321px; padding:19px 0 18px; margin-right:-322px; border-bottom:1px solid #d9dbdd; text-align:center; font-size:0; line-height:0; background-color:#f0f0f0; }
+.xans-productreview-display .productreview-paging ol { display:inline; white-space:nowrap; }
+.xans-productreview-display .productreview-paging li,
+.xans-productreview-display .productreview-paging p { display:inline; }
+.xans-productreview-display .productreview-paging li a,
+.xans-productreview-display .productreview-paging li strong { position:relative; display:inline-block; height:11px; padding:0 9px 0 10px; font-size:12px; line-height:10px; vertical-align:6px; *vertical-align:6px; font-weight:bold; border-left:1px solid #dce0e4; }
+.xans-productreview-display .productreview-paging li:first-child a,
+.xans-productreview-display .productreview-paging li:first-child strong { border-left:0; }
+.xans-productreview-display .productreview-paging li a { color:#1c1c1c; }
+.xans-productreview-display .productreview-paging li strong { color:#ff6600; }
+.xans-productreview-display .productreview-paging p a { display:inline-block; width:20px; height:20px; padding:0; border-left:0; background-image:url('http://img.echosting.cafe24.com/apps/photo-review/skin2/btn_paging.png'); background-repeat:no-repeat; }
+.xans-productreview-display .productreview-paging p a span { position:absolute; left:100%; visibility:hidden; }
+.xans-productreview-display .productreview-paging .first { margin-right:5px; }
+.xans-productreview-display .productreview-paging .first a { background-position:0 0; }
+.xans-productreview-display .productreview-paging .prev a { margin-right:5px; background-position:-30px 0; }
+.xans-productreview-display .productreview-paging .next a { margin-left:5px;background-position:-60px 0; }
+.xans-productreview-display .productreview-paging .last a { background-position:-90px 0; }
+.xans-productreview-display .productreview-paging .last { margin-left:5px; }
+
+.xans-productreview-display .productreview-detail {position:relative;padding:21px 342px 20px 34px; border:1px solid #bcbcbc; border-top:0; line-height:18px; word-break:break-all; background-color:#fff; }
+.xans-productreview-display .productreview-detail .subject { color:#ed5f00; }
+.xans-productreview-display .productreview-detail .subject strong { color:#464646; }
+.xans-productreview-display .productreview-detail .content { margin:11px 0 0; color:#828282; font-family:arial, dotum, sans-serif; }
+
+.group:before,
+.group:after {
+    content: "";
+    display: table;
+} 
+.group:after {
+    clear: both;
+}
+.group {
+    zoom: 1; /* For IE 6/7 (trigger hasLayout) */
+}

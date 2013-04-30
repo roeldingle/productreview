@@ -1,0 +1,74 @@
+@CHARSET "UTF-8";
+
+.wrap{padding:15px;}
+h2.title{padding:0 0 0 12px; margin:0 0 15px 0; background:transparent url(../images/front/h2_title_bullet.png) no-repeat left center; font-weight:bold; color:#000;}
+.product_review_wrap{padding:0 10px}
+.review_table_top{width:100%;display:inline-block;}
+.productreview-count{display:inline-block;}
+.productreview-count span{color: #FF6600;font-weight:bold;}
+.productreview-outputNumber{float:right;}
+
+img.product{width:50px;height:50px;}
+
+
+
+/*  RATINGS  */
+.rating-static {width: 55px;height: 16px;display: inline-block;background: url(../images/front/star_rating.gif) 0 0 no-repeat;}
+.rating-5 { background-position: 0 0; }
+.rating-4 { background-position: -11px 0; } 
+.rating-3 { background-position: -22px 0; }
+.rating-2 { background-position: -33px 0; }
+.rating-1 { background-position: -44px 0; }
+.rating-0 { background-position: -55px 0; }
+
+
+/* xans-productreview */
+/*.xans-productreview-display h2 { overflow:hidden; height:17px; margin:0 0 18px; text-indent:100%; background:url('http://img.echosting.cafe24.com/apps/product-review/skin1/txt_title.png') no-repeat 0 0; }*/
+
+.xans-productreview-display .productreview-count {display:inline-block; color:#828282; }
+.xans-productreview-display .productreview-count strong { color:#ff6600; }
+
+.xans-productreview-display .productreview-outputNumber { float:right; position:relative; top:-4px; margin:0 0 2px; color:#828282; }
+
+.xans-productreview-display table { border-top:2px solid #838383;font-size:12px; }
+.xans-productreview-display tr { padding:0 35px 0 0; }
+.xans-productreview-display th { padding:12px 0; border-bottom:1px solid #b1b1b1; color:#464646; background-color:#e6e6e6; }
+.xans-productreview-display th.product { text-indent:-30px; }
+.xans-productreview-display th.count { text-align:left; text-indent:3px; }
+.xans-productreview-display td { padding:5px 0; border-bottom:1px solid #e5e5e5; color:#828282; text-align:center; vertical-align:middle; }
+.xans-productreview-display table.embed td { padding:12px 0; }
+.xans-productreview-display td.product,
+.xans-productreview-display td.subject { text-align:left; }
+.xans-productreview-display td.product a{font-weight:bold;color:#353535}
+.xans-productreview-display td.date { font-size:11px; }
+.xans-productreview-display td.count { text-align:left; text-indent:13px; background:url('http://img.echosting.cafe24.com/apps/photo-review/skin1/ico_arrow_up.gif') no-repeat 58px 50%; }
+.xans-productreview-display tr.selected td.count { background-image:url('http://img.echosting.cafe24.com/apps/photo-review/skin1/ico_arrow_down.gif'); }
+.xans-productreview-display td img.product { float:left; margin-left:4px; border:1px solid #e1e1e1; }
+.xans-productreview-display td.product strong { color:#0067c7; font-weight:normal}
+.xans-productreview-display td a { color:#828282}
+.xans-productreview-display table.embed td.subject a { float:left; margin:0 10px; }
+.xans-productreview-display tr.selected td.subject a { color:#ff6600; }
+.xans-productreview-display tr.reviewArea td { padding:30px 20px 26px 43px; text-align:left; background-color:#f5f5f5; }
+.xans-productreview-display tr.reviewArea td img { margin:0 12px 13px 0; }
+.xans-productreview-display tr.reviewArea td p { clear:both; font-family:arial, dotum, sans-serif; line-height:18px }
+/*
+
+.xans-productreview-display .productreview-paging ol { display:inline; white-space:nowrap; }
+.xans-productreview-display .productreview-paging li,
+.xans-productreview-display .productreview-paging p { display:inline; }
+.xans-productreview-display .productreview-paging li a,
+.xans-productreview-display .productreview-paging li strong { position:relative; display:inline-block; height:11px; padding:0 9px 0 10px; font-size:12px; line-height:10px; vertical-align:6px; *vertical-align:6px; font-weight:bold; border-left:1px solid #dce0e4; }
+.xans-productreview-display .productreview-paging li:first-child a,
+.xans-productreview-display .productreview-paging li:first-child strong { border-left:0; }
+.xans-productreview-display .productreview-paging li a { color:#1c1c1c; }
+.xans-productreview-display .productreview-paging li strong { color:#ff6600; }
+.xans-productreview-display .productreview-paging p a { display:inline-block; width:20px; height:20px; padding:0; border-left:0; background-image:url('http://img.echosting.cafe24.com/apps/product-review/skin1/btn_paging.png'); background-repeat:no-repeat; }
+.xans-productreview-display .productreview-paging p a span { position:absolute; left:100%; visibility:hidden; }
+.xans-productreview-display .productreview-paging .first { margin-right:5px; }
+.xans-productreview-display .productreview-paging .first a { background-position:0 0; }
+.xans-productreview-display .productreview-paging .prev a { margin-right:5px; background-position:-30px 0; }
+.xans-productreview-display .productreview-paging .next a { margin-left:5px;background-position:-60px 0; }
+.xans-productreview-display .productreview-paging .last a { background-position:-90px 0; }
+.xans-productreview-display .productreview-paging .last { margin-left:5px; }
+
+*/
